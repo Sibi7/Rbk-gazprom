@@ -1,0 +1,58 @@
+
+button{
+  transition: 200ms ease;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.05);
+    transition: 200ms ease;
+
+  }
+}
+.clearfix{
+  overflow: hidden;
+  clear: both;
+}
+.social-share{
+  width: 640px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  a{
+    width: 213.3px;
+    height: 60px;
+    border: solid 1px #d7d7d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: 200ms ease;
+    &:hover{
+      background: rgba(22, 182, 127, .7);
+      transition: 200ms ease;
+      border: transparent;
+      path{
+        fill: #fff;
+        transition: 200ms ease;
+      }
+    }
+    &:nth-child(2){
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+}
+.gazprom-article{
+  display: flex;
+  width: 100%;
+  position: relative;
+  font-family: 'Graphik RBC LC Web', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #b8b8b8;
+}
+.margin-top{
+  margin-top: 0!important;
+}
